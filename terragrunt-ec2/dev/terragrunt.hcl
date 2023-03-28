@@ -19,8 +19,8 @@ generate "provider" {
   provider "aws" {
     profile = "default"
     region  = "ap-south-1"
-    access_key = "AKIAY2274QYK5GBTIRXV"
-    secret_key = "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"
+    access_key = "*************"
+    secret_key = "********************"
   }
 EOF
 }
