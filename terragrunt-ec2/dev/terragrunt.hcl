@@ -18,14 +18,15 @@ generate "provider" {
   contents = <<EOF
   provider "aws" {
     profile = "default"
-    region  = "eu-central-1"
-    shared_credentials_file = "/Users/rwagh/credentials"
+    region  = "ap-south-1"
+    access_key = "AKIAY2274QYK5GBTIRXV"
+    secret_key = "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"
   }
 EOF
 }
 
 inputs = {
-  ami           = "ami-0767046d1677be5a0"
+  ami           = "ami-0f8ca728008ff5af4"
   instance_type = local.env_vars.locals.instance_type
   tags = {
     Name = "Terragrunt Tutorial: EC2"
